@@ -3,7 +3,7 @@ Summary:	Graphical user interface for p2p cores.
 Summary(pl):	Interfejs graficzny dla p2p.
 Name:		g2gui
 Version:	0.3.0
-Release:	1
+Release:	0.1
 License:	CPL/GPL
 Group:		X11/Applications/Networking
 Source0:	http://download.berlios.de/mldonkey/%{name}-%{version}-%{_pver}.tar.bz2
