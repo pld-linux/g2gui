@@ -1,4 +1,4 @@
-# TODO: noarch or ExclusiveArch? It's GPL, so either noarch, or it should be compiled from source
+# TODO: It's GPL, so either noarch, or it should be compiled from source (source very old and lots of problems with it), patch for g2gui needed (to change LIBDIR), problem with bug (g2gui.jar must be rebuild)
 %define		_pver	pre1-linux-jar-gtk
 Summary:	Graphical user interface for p2p cores
 Summary(pl):	Interfejs graficzny dla p2p
@@ -10,6 +10,7 @@ Group:		X11/Applications/Networking
 Source0:	http://download.berlios.de/mldonkey/%{name}-%{version}-%{_pver}.tar.bz2
 # Source0-md5:	7f4770e42530215f51fb320029aa2732
 URL:		http://developer.berlios.de/projects/mldonkey/
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
