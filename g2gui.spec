@@ -20,7 +20,7 @@ parts of the eclipse framework.
 
 %description -l pl
 MLDonkey G2gui jest zaawansowan± graficzn± konsol± umo¿liwiaj±c±
-zarz±dzanie rdzeniem MLDonkey. G³ówna zalet± G2gui jest ³atwy i
+zarz±dzanie rdzeniem MLDonkey. G³ówn± zalet± G2gui jest ³atwy i
 intuicyjny w obs³udze interfejs napisany w technologii Java.
 
 %prep
