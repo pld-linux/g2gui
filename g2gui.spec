@@ -9,13 +9,18 @@ Group:		X11/Applications/Networking
 Source0:	http://download.berlios.de/mldonkey/%{name}-%{version}-%{_pver}.tar.bz2
 # Source0-md5:	7f4770e42530215f51fb320029aa2732
 URL:		http://developer.berlios.de/projects/mldonkey/
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-MLDonkey G2gui is a next-generation crossplatform Graphical User Interface to the MLDonkey core. Its goal is to be userfriendly and powerful, using state of the art Java-techniques like SWT and other parts of the eclipse framework.
+MLDonkey G2gui is a next-generation crossplatform Graphical User
+Interface to the MLDonkey core. Its goal is to be userfriendly and
+powerful, using state of the art Java-techniques like SWT and other
+parts of the eclipse framework.
 
 %description -l pl
-MLDonkey G2gui jest zawanasown± graficzn± konsol± umo¿liwiaj±c± zarz±dzanie rdzeniem MLDonkey. G³ówna zalet± G2gui jest ³atwy i intuicyjny w obs³udze interfejs napisany w technologi Java.
+MLDonkey G2gui jest zawanasown± graficzn± konsol± umo¿liwiaj±c±
+zarz±dzanie rdzeniem MLDonkey. G³ówna zalet± G2gui jest ³atwy i
+intuicyjny w obs³udze interfejs napisany w technologi Java.
 
 %prep
 %setup -q -n %{name}-%{version}-%{_pver}
@@ -35,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 /sbin/ldconfig
 
 %files
-%defattr(0644, root, root, 0755)
+%defattr(644,root,root,755)
 %doc distrib/ChangeLog.txt distrib/license-cpl.txt distrib/license-gpl.txt distrib/README.txt distrib/TODO.txt
 %attr(0755,root,root) %{_bindir}/*
 %attr(0755,root,root) %{_libdir}/%{name}*
