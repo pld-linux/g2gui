@@ -1,7 +1,7 @@
 # TODO: It's GPL, so either noarch, or it should be compiled from source (source very old and lots of problems with it), patch for g2gui needed (to change LIBDIR), problem with bug (g2gui.jar must be rebuild)
 %define		_pver	pre1-linux-jar-gtk
 Summary:	Graphical user interface for p2p cores
-Summary(pl):	Interfejs graficzny dla p2p
+Summary(pl.UTF-8):   Interfejs graficzny dla p2p
 Name:		g2gui
 Version:	0.3.0
 Release:	0.1
@@ -19,10 +19,10 @@ Interface to the MLDonkey core. Its goal is to be userfriendly and
 powerful, using state of the art Java-techniques like SWT and other
 parts of the eclipse framework.
 
-%description -l pl
-MLDonkey G2gui jest zaawansowan± graficzn± konsol± umo¿liwiaj±c±
-zarz±dzanie rdzeniem MLDonkey. G³ówn± zalet± G2gui jest ³atwy i
-intuicyjny w obs³udze interfejs napisany w technologii Java.
+%description -l pl.UTF-8
+MLDonkey G2gui jest zaawansowanÄ… graficznÄ… konsolÄ… umoÅ¼liwiajÄ…cÄ…
+zarzÄ…dzanie rdzeniem MLDonkey. GÅ‚Ã³wnÄ… zaletÄ… G2gui jest Å‚atwy i
+intuicyjny w obsÅ‚udze interfejs napisany w technologii Java.
 
 %prep
 %setup -q -n %{name}-%{version}-%{_pver}
