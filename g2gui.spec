@@ -1,7 +1,7 @@
 # TODO: It's GPL, so either noarch, or it should be compiled from source (source very old and lots of problems with it), patch for g2gui needed (to change LIBDIR), problem with bug (g2gui.jar must be rebuild)
 %define		_pver	pre1-linux-jar-gtk
 Summary:	Graphical user interface for p2p cores
-Summary(pl.UTF-8):   Interfejs graficzny dla p2p
+Summary(pl.UTF-8):	Interfejs graficzny dla p2p
 Name:		g2gui
 Version:	0.3.0
 Release:	0.1
